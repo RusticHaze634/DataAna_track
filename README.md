@@ -27,17 +27,17 @@
 ![image](https://user-images.githubusercontent.com/38161827/216852398-9fd792cd-48ae-4146-ac46-60966325c46d.png)
 
 
-### 2. Work Flow-chart
+## 2. Work Flow-chart
 ![image](https://user-images.githubusercontent.com/38161827/216851062-26b22488-9845-4db2-9aa2-76cfa6d7a04e.png)
 
 
-### 3. Platform and Tools Utilised in the Project
+## 3. Platform and Tools Utilised in the Project
 - Python coding and execution platform for the research work: **Google Colaboratory**
 - Graph Plotting and Image Generation: **Matplotlib, Plotly**
 - Data Preprocessing, Model Design: **TensorFlow Keras, Python**
 - Project Visualistion: MS Powerpoint, MS PowerBi
 
-### 4. Required Libraries 
+## 4. Required Libraries 
 
 For EDA, Visualisation & Preprocessing
 - NumPy
@@ -53,21 +53,21 @@ Forr Data Sampling and Segmentation
 For Predictive Model Designing, predction, Assessment
 - Scikit-Learn
 
-### 5. EDA & Visualisation
+## 5. EDA & Visualisation
 
-### 6 Dataset Segmentation
+## 6 Dataset Segmentation
 ![image](https://user-images.githubusercontent.com/38161827/216852582-75ec8f18-b16d-489a-80ab-7733155af18e.png)
 
 
-### 7. Dealing with Data Imbalance
+## 7. Dealing with Data Imbalance
 
 - **Reason:** - Because the training data is an imbalanced dataset . It is skewed in the direction of the 'Not purchased' category. 
 - **Step to take:**- We have to stratify our training data so that the ratio of training labels is equal. And this way we can avoid bias in prediction.
 
-#### Stratifying/ Imabalnce Handling
+### Stratifying/ Imabalnce Handling
 - stratified shuffle split package in Scikit
 
-### 8. Model Design for Intention Classification and Best Model
+## 8. Model Design for Intention Classification and Best Model
 - Naive Bayes Classifier
 - Logistic Regression
 - Support Vector Machine
@@ -94,7 +94,7 @@ If both the training accuracy and test accuracy are close then the model has not
 - Only in the case of Random Forest model, the training accuracy (90.58%) is close to its testing accuracy (89.49%). 
 --> This one seems best fit model, till now.
 
-### 9. Reasons for Choosing RF
+## 9. Reasons for Choosing RF
 - The training and testing accuracies are very close to each other, Less biasing probability in prediction
 - Testing accuracy is higher than other model  - 89.49%.
 - Precision, Recall, and F1-scores are higher than other tested models
